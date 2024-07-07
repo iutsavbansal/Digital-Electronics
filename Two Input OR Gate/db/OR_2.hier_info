@@ -1,0 +1,6 @@
+|OR_2
+I0 => O0.IN0
+I1 => O0.IN1
+O0 << O0.DB_MAX_OUTPUT_PORT_TYPE
+
+
