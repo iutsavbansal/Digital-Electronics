@@ -1,0 +1,70 @@
+# Reading pref.tcl
+# do EE232_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/NOT_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:40:57 on Sep 06,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/NOT_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NOT_1
+# -- Compiling architecture FUNCTIONALITY of NOT_1
+# End time: 12:40:57 on Sep 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:40:58 on Sep 06,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OR_2_TB
+# -- Compiling architecture TESTBENCH of OR_2_TB
+# End time: 12:40:58 on Sep 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  OR_2_TB
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" OR_2_TB 
+# Start time: 12:40:58 on Sep 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.or_2_tb(testbench)
+# ** Warning: (vsim-3473) Component instance "DUT : OR_2" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /or_2_tb File: C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+vsim work.not_1
+# End time: 12:41:33 on Sep 06,2022, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 1
+# vsim work.not_1 
+# Start time: 12:41:33 on Sep 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.not_1(functionality)
+add wave -position insertpoint  \
+sim:/not_1/I0 \
+sim:/not_1/O0
+force -freeze sim:/not_1/I0 0 0
+run
+force -freeze sim:/not_1/I0 1 0
+run
+# End time: 12:42:31 on Sep 06,2022, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

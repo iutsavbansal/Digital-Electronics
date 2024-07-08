@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/simulation/modelsim
+Enot_1
+Z1 w1662448121
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/NOT_1.vhd
+Z5 FC:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/NOT_1.vhd
+l0
+L4 1
+V_6Uf;[TFRT>7MPFlY7zdH1
+!s100 43EPVgzOKQ^ez;nA7`X263
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1662448257
+!i10b 1
+Z8 !s108 1662448257.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/NOT_1.vhd|
+Z10 !s107 C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/NOT_1.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Afunctionality
+R2
+R3
+DEx4 work 5 not_1 0 22 _6Uf;[TFRT>7MPFlY7zdH1
+!i122 0
+l10
+L9 4
+Vo:Nj;CLn2kRgY74g0dWKI2
+!s100 FQ=B:kDz?J9hk[?[gC5dM0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2_tb
+Z13 w1661842861
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd
+Z15 FC:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd
+l0
+L4 1
+Vc7i:=O@;N]L0AG`H3HZ=W3
+!s100 @;zH;nmYj^I]O22:Tz6kX1
+R6
+31
+Z16 !s110 1662448258
+!i10b 1
+Z17 !s108 1662448258.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd|
+!s107 C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R2
+R3
+DEx4 work 7 or_2_tb 0 22 c7i:=O@;N]L0AG`H3HZ=W3
+!i122 1
+l16
+L7 21
+V6Ok3SUJ9kJF55AGzk>CDg1
+!s100 XNnbSKZQG^4I_;GTHocUD0
+R6
+31
+R16
+!i10b 1
+R17
+R18
+Z19 !s107 C:/Users/91626/Desktop/IIT Goa/3rd sem/EE232/OR_2_TB.vhd|
+!i113 1
+R11
+R12
